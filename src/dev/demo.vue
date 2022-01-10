@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="navigate">
-      <span @click="viewIndex = 1">Full demo</span>
-      <span @click="viewIndex = 2">Simple demo</span>
+      <!--<span @click="viewIndex = 1">Full demo</span>-->
+      <!--<span @click="viewIndex = 2">Simple demo</span>-->
     </div>
     <div>
       <App v-if="viewIndex == 1"></App>
@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      viewIndex: 1
+      viewIndex: 2
     };
   }
 };
